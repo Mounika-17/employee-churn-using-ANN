@@ -4,15 +4,15 @@ A deep learning project using Artificial Neural Networks (ANN) to predict custom
 
 ## 📂 Project Structure
 
-ANN-CLASSIFICATION/
-│
-├── artifacts/
-│   ├── data.csv
-│   ├── train.csv
-│   ├── test.csv
-│   ├── model.pkl
-│   └── preprocessor.pkl
-│
+ANN-CLASSIFICATION/  
+│  
+├── artifacts/  
+│   ├── data.csv  
+│   ├── train.csv  
+│   ├── test.csv  
+│   ├── model.pkl  
+│   └── preprocessor.pkl  
+│  
 ├── logs/
 │   └── (log files generated during data processing, training & prediction)
 │
