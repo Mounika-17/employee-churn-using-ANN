@@ -1,0 +1,8 @@
+1. In this project, I have saved the preprocessor and model as a seperate pickle files. Because we pass the cleaned and processed 
+train and test data to my ANN model. Done the train test split and applied the transformation on them  in my data_transformation.py
+and saved my preprocessor.pkl.
+2. *** There wont be any data leakage because I am not doing any explicit CV during my model training.
+3. Normal and Tensorboard logs are created
+To view the tensor board logs run the below command in the terminal(cmd):
+tensorboard --logdir=logs/fit
+And you get a link like this click on it-  http://localhost:6006/
