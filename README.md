@@ -13,36 +13,37 @@ ANN-CLASSIFICATION/
 │   ├── model.pkl  
 │   └── preprocessor.pkl  
 │  
-├── logs/
-│   └── (log files generated during data processing, training & prediction)
-│
-├── notebooks/
-│   └── Employee_Churn_Exploration.ipynb
-│
-├── src/
-│   ├── components/
-│   │   ├── __init__.py
-│   │   ├── data_ingestion.py
-│   │   ├── data_transformation.py
-│   │   ├── model_trainer.py
-│   │   └── model.py
-│   │
-│   ├── pipeline/
-│   │   ├── __init__.py
-│   │   ├── training_pipeline.py
-│   │   └── predict_pipeline.py
-│   │
-│   ├── __init__.py
-│   ├── config.py
-│   ├── exception.py
-│   ├── logger.py
-│   └── utils.py
-│
-├── .gitignore
-├── app.py
-├── README.md
-├── requirements.txt
-└── setup.py
+├── logs/  
+│   └── (log files generated during data processing, training & prediction)  
+│  
+├── notebooks/  
+│   └── Employee_Churn_Exploration.ipynb  
+│  
+├── src/  
+│   ├── components/  
+│   │   ├── __init__.py  
+│   │   ├── data_ingestion.py  
+│   │   ├── data_transformation.py  
+│   │   ├── model_trainer.py  
+│   │   └── model.py  
+│   │  
+│   ├── pipeline/  
+│   │   ├── __init__.py  
+│   │   ├── training_pipeline.py  
+│   │   └── predict_pipeline.py  
+│   │  
+│   ├── __init__.py  
+│   ├── config.py  
+│   ├── exception.py  
+│   ├── logger.py  
+│   └── utils.py  
+│  
+├── .gitignore  
+├── app.py  
+├── README.md  
+├── requirements.txt  
+└── setup.py  
+
 
 🧩 Explanation of Key Folders & Files
 
