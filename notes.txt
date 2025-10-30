@@ -6,3 +6,8 @@ and saved my preprocessor.pkl.
 To view the tensor board logs run the below command in the terminal(cmd):
 tensorboard --logdir=logs/fit
 And you get a link like this click on it-  http://localhost:6006/
+
+Deployed the application using the streamlit. Here is the link:
+https://employee-churn-using-ann-c2wojghgz2kyjnmj8lxvcv.streamlit.app/
+
+
