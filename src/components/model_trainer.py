@@ -57,8 +57,12 @@ class ModelTrainer:
             model = build_ann_model(X_train.shape[1])
 
             tensorboard_callback = TensorBoard(log_dir=log_dir, histogram_freq=1)
+            # patience=10 means that the model will stop training if it doesn't improve for 10 epochs
+            # monitor='val_loss' means that the model will stop training if the validation loss doesn't improve
+            # restore_best_weights=True means that the model will restore the weights of the best epoch
             early_stopping = EarlyStopping(monitor='val_loss', patience=10, restore_best_weights=True)
-
+            
+            # Train the model
             history = model.fit(
                 X_train, y_train,
                 validation_data=(X_test, y_test),
