@@ -11,8 +11,8 @@ def build_ann_model(input_dim):
     ])
     
     model.compile(
-        optimizer=Adam(learning_rate=0.001),
-        loss='binary_crossentropy',
-        metrics=['accuracy']
+        optimizer=Adam(learning_rate=0.001), # Optimizers are used to update the weights of the model to reduce the loss and here we are using the Adam optimizer
+        loss='binary_crossentropy', # Loss function is used to measure the error between the predicted output and the actual output
+        metrics=['accuracy'] # Metrics are used to evaluate the performance of the model
     )
     return model
