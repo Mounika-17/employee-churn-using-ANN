@@ -71,6 +71,41 @@ ANN-CLASSIFICATION/
 ## 🧩 Tech Stack
 - Python, TensorFlow, scikit-learn
 - Streamlit for UI
-- Modular structure (src/, models/, notebooks/)
+- Modular structure (src/, models/, notebooks/)  
+
+## 🧠 Model Details  
+| Feature                 | Description                                       |
+| ----------------------- | ------------------------------------------------- |
+| **Model Type**          | Artificial Neural Network (ANN)                   |
+| **Problem Type**        | Binary Classification (Employee Churn Prediction) |
+| **Architecture**        | Fully Connected Feedforward Neural Network        |
+| **Frameworks Used**     | TensorFlow, Keras                                 |
+| **Training Method**     | Supervised Learning                               |
+| **Model Saving Format** | `.h5`                                             |
+
+
+## 📈 Model Performance
+| Metric                     | Value                                                                 |
+| -------------------------- | --------------------------------------------------------------------- |
+| **Accuracy**               | ⭐ 82.75%                                                              |
+| **Model Status**           | Trained and Saved Successfully                                        |  
+| **Model File Path**        | `artifacts/model.h5` |
+
+
+
+## 🔎 Insights  
+✔ ANN successfully learned complex employee churn patterns  
+✔ Accuracy of 82.75% indicates a good baseline model  
+✔ Model performance can be further improved using:  
+ 🔹 Hyperparameter tuning (batch size, learning rate, layers, neurons)  
+ 🔹 EarlyStopping and Dropout to reduce overfitting  
+ 🔹 Try advanced models like XGBoost, TabNet, or Deep Neural Networks  
+
+
+## 👩‍💻 Author  
+Mounika Maradana  
+📧 https://www.linkedin.com/in/mounikamaradana/  
+🌐 https://github.com/Mounika-17  
+
 
 
